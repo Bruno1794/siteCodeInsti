@@ -1,0 +1,87 @@
+.tituloServico {
+    margin: 50px;
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+.gridServicos {
+    display: grid;
+    grid-template-columns:repeat(3, 300px);
+    gap: 40px 28PX;
+    justify-self: center;
+
+}
+@media (max-width: 1000px) {
+    .gridServicos{
+        display: grid;
+        grid-template-columns:repeat(2, 300px);
+    }
+}
+
+
+.bloco {
+    background: #292929;
+    padding: 70px 0;
+    border-radius: 8px;
+
+
+}
+
+.bloco:hover {
+    background: #FF585E;
+    box-shadow: -4px -5px 20px 0px rgba(0,0,0,0.75);
+    color: #292929;
+
+
+}
+
+.bloco p {
+    margin-left: 80px;
+    color: white;
+    font-size: 1rem;
+
+
+}
+
+
+.bloco h1 {
+    margin-left: 80px;
+    color: white;
+    font-size: 2rem;
+
+}
+.descricao{
+    max-width: 950px;
+    place-self: center;
+    padding: 20px 0;
+    font-size: 1.2rem;
+}
+.btnAjuste{
+    place-self: center;
+    margin-bottom: 50px;
+
+}
+
+@media (max-width: 700px) {
+    .gridServicos{
+        display: block;
+    }
+    .bloco{
+        margin: 10px;
+        padding: 70px 50px;
+    }
+    .bloco p {
+        margin-left: 50px;
+
+
+
+    }
+
+
+    .bloco h1 {
+        margin-left: 50px;
+
+
+    }
+}

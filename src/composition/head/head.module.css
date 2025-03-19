@@ -1,0 +1,67 @@
+.subHeand {
+    background: #3E3E3E;
+    margin: 0;
+    padding: 10px;
+}
+
+.subHeand p {
+    max-width: 1600px;
+    margin: 0 auto;
+    color: #fff;
+
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo h1 {
+    font-size: 2rem;
+
+}
+
+.logo p {
+    font-size: 1.1rem;
+    letter-spacing: 0.2rem;
+    font-weight: 400;
+    font-family: monospace;
+    color: #014F92;
+
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    color: white;
+    flex-wrap: wrap;
+
+}
+
+@media (max-width: 800px) {
+    .head {
+        display: block;
+        place-self: center;
+        padding: 20px;
+    }
+
+}
+
+.head ul {
+    display: flex;
+    gap: 4rem;
+    font-size: 1.1rem;
+}
+
+@media (max-width: 800px) {
+    .head ul {
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding: 25px 0;
+    }
+    .logo p{
+        font-size: 0.8rem;
+    }
+
+}
